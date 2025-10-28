@@ -1,6 +1,8 @@
 # Custom
 data/
 results/
+test_results/
+training_results/
 *.ckpt
 *.pt
 *.pth
