@@ -1,7 +1,7 @@
 # Custom
 data/
 results/
-test_results/
+#test_results/
 training_results/
 *.ckpt
 *.pt
