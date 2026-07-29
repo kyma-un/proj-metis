@@ -10,7 +10,7 @@ def main():
     model = YOLO(MODEL)
 
     '''model.train(
-        data="data/data.yaml",
+        data=DATA,
         epochs=100,
         imgsz=640,
         batch=16,
