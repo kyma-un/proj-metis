@@ -9,7 +9,7 @@ def main():
 
     model = YOLO(MODEL)
 
-    '''model.train(
+    model.train(
         data=DATA,
         epochs=100,
         imgsz=640,
@@ -18,11 +18,11 @@ def main():
         lr0=0.001,
         lrf=0.01,
         warmup_epochs=3,
-        mixup=1,
-        cutmix=1,
+        mixup=0.5,
+        cutmix=0.5,
         project="training_results",
         name="v1",
-    )'''
+    )
 
 
 if __name__ == "__main__":
