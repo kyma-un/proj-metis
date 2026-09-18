@@ -11,17 +11,17 @@ def main():
 
     model.train(
         data=DATA,
-        epochs=100,
+        epochs=200,
         imgsz=640,
         batch=16,
         freeze=10,
         lr0=0.001,
         lrf=0.01,
-        warmup_epochs=3,
-        mixup=0.5,
+        warmup_epochs=3, 
+        mixup=0.0,
         cutmix=0.5,
         project="training_results",
-        name="v1",
+        name="v1-4",
     )
 
 
